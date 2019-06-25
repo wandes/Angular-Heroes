@@ -1,0 +1,19 @@
+<h1 >Heroes</h1>
+    <br>
+    <div *ngFor="let x of heroes" style="margin: 0 10px; display: inline-block;">
+            <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">{{x.name}}</h5>
+                    <p class="card-text">{{x.description}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{x.power}}</li>
+                    </ul>
+                    <div class="card-body">
+                    <a href="#" class="card-link">Alterar</a>
+                    <a href="#" class="card-link">Excluir</a>
+                    </div>
+                </div>
+                <br>
+        </div>           
+      
